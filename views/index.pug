@@ -4,10 +4,10 @@ block content
   h1= title
   p Welcome to #{title}
 
-  <a href="/new">new</a>
+  <a href="/new">New Message</a>
 
   for m in messages
     p #{' '}
     b #{m.user + ': '}
     span #{m.text}
-    p #{m.added}
+    <p style="color: #888; margin-left: 16px"> #{m.added}</p>

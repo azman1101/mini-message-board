@@ -20,7 +20,7 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/new', function (req, res, next) {
-  res.render('form', { title: 'new form', messages: messages });
+  res.render('form');
 });
 
 router.post('/new', function (req, res) {
